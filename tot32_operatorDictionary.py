@@ -15,7 +15,7 @@ print(f"Check Key => {CHECKKEY}")
 # Mengakses value dengan get
 print("\nAkses Menggunakan get()")
 getDict = dtDict.get("Nama")
-getDictNo = d~tDict.get("aaa", "key tidak ditemukan") # dengan message default
+getDictNo = dtDict.get("aaa", "key tidak ditemukan") # dengan message default
 print(getDict)
 print(getDictNo)
 
